@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbarBuy {
+    width: 200px;
+    border-radius: 16px;
+    box-shadow:0 0 10px #ffd369, 0 0 300px #ffd369;
+}
+
+
+.index2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.index3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.indexText {
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
+
+.indexText h1 {
+    font-size: 8rem;
+}
+
+.indexText2 {
+    margin-top: 50px;
+}
+
+.kidimg {
+    width: 500px;
+}
+
+.tokenimg {
+    width: 600px;
+    filter: drop-shadow(0px 0px 1000px rgba(255, 211, 105, 0.3));
+    margin-left: 100px;
+}
+
+.glow {
+    text-shadow:0 0 10px #ffd369, 0 0 300px #ffd369;
+}
+
+.roadmap {
+    margin-top: 100px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.copyContract {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social {
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 0px 100px rgba(255, 211, 105, 0.2));
+}
+
+.social span {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+#loading-screen {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #212529;
+    z-index: 999;
+}
+
+.animated-item {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-in-out;
+}
+  
+.animated-item.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+
+@media only screen and (max-width: 600px) {
+    .index1 {
+        margin-top: 0px;
+        margin-bottom: -50px;
+    }
+
+
+    .indexText h1 {
+        font-size: 6rem;
+    }
+
+    .kidimg {
+        width: 200px;
+    }
+
+    .index2 {
+        margin-top: 0px;
+    }
+
+    .roadmap {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .navbar span {
+        display: none;
+    }
+
+    .tokenimg {
+        margin-left: 0px;
+    }
+}
