@@ -4,6 +4,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h1, h2, .logoText {
+  font-family: "Fredoka One", cursive;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -133,4 +137,5 @@ body {
         margin-left: 0px;
     }
 }
+
 
